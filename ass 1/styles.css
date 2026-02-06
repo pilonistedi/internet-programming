@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: Arial, sans-serif;
+  color: #222;
+}
+
+.name {
+  width: 1000px;
+  height: 100px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #1877f2, white);
+  display: flex;
+  align-items: center;
+}
+
+.hero {
+  width: 1000px;
+  margin: 40px auto;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.hcont {
+  width: 50%;
+}
+
+.hero img {
+  width: 50%;
+  border-radius: 16px;
+}
+
+.section-title {
+  width: 1000px;
+  margin: 40px auto 10px auto;
+}
+
+.cont {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.life-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  height: 150px;
+  border-radius: 14px;
+  border: 1px solid #ddd;
+  background: linear-gradient(to right, #f0f0f0, white);
+}
+
+.facebook {
+  background: linear-gradient(to right, #1877f2, white);
+}
+
+.instagram {
+  background: linear-gradient(to right, #f58529, white);
+}
+
+.meta {
+  background: linear-gradient(to right, #4267b2, white);
+}
+
+.whatsapp {
+  background: linear-gradient(to right, #25d366, white);
+}
+
+.companies {
+  width: 1000px;
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 18%;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 16px;
+}
