@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Summit Crest University</title>
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <h2>Summit Crest University</h2>
+      </div>
+
+      <ul class="menu">
+        <li><a href="admissions.html">Admissions</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero">
+      <h2>Welcome to Summit Crest University</h2>
+
+      <div class="hero-cont">
+        <p>Where Excellence Meets Opportunity</p>
+        <a href="admissions.html" class="btn">Apply Now</a>
+      </div>
+    </section>
+    <section class="highlights">
+      <article class="highlight">
+        <img src="images/campuslife.jpg" alt="Students enjoying campus life" />
+        <h3>Campus Life</h3>
+        <p>
+          Experience a vibrant campus community with diverse clubs, events, and
+          activities that foster personal growth and lifelong friendships.
+        </p>
+      </article>
+
+      <article class="highlight">
+        <img src="images/admission.png" alt="University admissions" />
+        <h3>Admissions</h3>
+        <p>
+          Learn about our admission process, requirements, and how to apply to
+          join our community of scholars.
+        </p>
+      </article>
+
+      <article class="highlight">
+        <img src="images/academic.jpg" alt="Students in classroom" />
+        <h3>Academic Programs</h3>
+        <p>
+          Explore our wide range of undergraduate and graduate programs designed
+          to provide you with a world-class education and the skills needed to
+          succeed in your chosen field.
+        </p>
+      </article>
+
+      <article class="highlight">
+        <img src="images/research.jpg" alt="Research in laboratory" />
+        <h3>Research Opportunities</h3>
+        <p>
+          Engage in cutting-edge research with our faculty members and
+          contribute to groundbreaking discoveries in your field of interest.
+        </p>
+      </article>
+    </section>
+    <section class="about">
+      <div class="about-content">
+        <div class="about-text">
+          <h2>About Summit Crest University</h2>
+          <p>
+            Founded over a century ago in the year 1905, Summit Crest University
+            combines tradition and innovation to provide world-class education.
+            Our commitment to academic excellence, research, and personal growth
+            has shaped generations of leaders and thinkers.
+          </p>
+          <p>
+            Join a community that values scholarship, creativity, and lifelong
+            learning.
+          </p>
+        </div>
+        <div class="about-image">
+          <img src="images/campus2.jpg" alt="University campus view" />
+        </div>
+      </div>
+    </section>
+    <section class="events">
+      <h2>Upcoming Events</h2>
+      <div class="event-list">
+        <article class="event">
+          <img src="images/open-day.png" alt="Open Day event" />
+          <h3>University Open Day</h3>
+          <p class="event-date">March 25, 2026</p>
+          <p>
+            Visit our campus, meet faculty and students, and explore our
+            facilities.
+          </p>
+        </article>
+
+        <article class="event">
+          <img src="images/lecture.webp" alt="Guest lecture" />
+          <h3>Guest Lecture: AI in Research</h3>
+          <p class="event-date">April 10, 2026</p>
+          <p>
+            Join our renowned faculty and guest speakers as they discuss AI
+            innovations.
+          </p>
+        </article>
+
+        <article class="event">
+          <img src="images/conference.jpg" alt="Annual Research Conference" />
+          <h3>Annual Research Conference</h3>
+          <p class="event-date">May 5-7, 2026</p>
+          <p>
+            Present your work and collaborate with scholars from around the
+            world.
+          </p>
+        </article>
+      </div>
+    </section>
+    <section class="quiz">
+      <h2>Test Your Knowledge on Summit Crest University</h2>
+      <div class="quiz-container">
+        <div class="question">
+          <p>1. What year was Summit Crest University founded?</p>
+          <input type="radio" name="q1" value="1900" /> 1900<br />
+          <input type="radio" name="q1" value="1920" /> 1920<br />
+          <input type="radio" name="q1" value="1905" /> 1905<br />
+        </div>
+
+        <div class="question">
+          <p>2. Which field is highlighted in our upcoming guest lecture?</p>
+          <input type="radio" name="q2" value="Biology" /> Biology<br />
+          <input type="radio" name="q2" value="AI" /> AI<br />
+          <input type="radio" name="q2" value="Economics" /> Economics<br />
+        </div>
+
+        <button onclick="checkQuiz()">Submit Answers</button>
+        <p id="quiz-result"></p>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-about">
+          <h3>Summit Crest University</h3>
+          <p>
+            Established over a century ago, we are committed to academic
+            excellence, research, and fostering lifelong learning.
+          </p>
+          <br />
+          <h3>MAXWELL JOSALI</h3>
+          <h3>BCS-05-0093/2024</h3>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Contact Us</h4>
+          <p>123 University Road, Summit City</p>
+          <p>Email: info@summitcrest.edu</p>
+          <p>Phone: +1 (555) 123-4567</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Summit Crest University. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      function checkQuiz() {
+        if (!confirm("Do you want to submit your answers?")) {
+          return;
+        }
+
+        let score = 0;
+
+        const q1 = document.querySelector('input[name="q1"]:checked');
+        const q2 = document.querySelector('input[name="q2"]:checked');
+
+        if (!q1 || !q2) {
+          document.getElementById("quiz-result").innerText =
+            "Please answer all questions!";
+          return;
+        }
+
+        if (q1.value === "1905") score++;
+        if (q2.value === "AI") score++;
+
+        document.getElementById("quiz-result").innerText =
+          `You scored ${score} out of 2`;
+      }
+    </script>
+  </body>
+</html>
